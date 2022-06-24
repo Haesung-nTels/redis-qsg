@@ -6,23 +6,23 @@ redis quick start guide go lang example code
    - CentOS Linux release 7.9.2009
    - go1.18.3
    - go 환경변수
-   ```
+```
 GOPATH="$HOME/proj"
 GOROOT="$HOME/go"
-   ```
+```
 - 초기화
- ```shell
+```shell
  go mod init ntels.com/redis-qsg
  go mod tidy
- ```
+```
 
- - 빌드
- ```shell
+- 빌드
+```shell
  go build
  ```
 
- - 실행
- ```
+- 실행
+```
 $ ./redis-qsg -h
 Usage of ./redis-qsg:
   -c    Clear redis 'Count'
@@ -33,4 +33,4 @@ Usage of ./redis-qsg:
   -p int
         number of go routines to run (default 1)
 $
- ```
+```
