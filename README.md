@@ -1,25 +1,31 @@
 # redis-qsg
+- [redis-qsg](#redis-qsg)
+- [소개](#소개)
+- [컴파일 방법](#컴파일-방법)
+
+# 소개
 redis quick start guide go lang example code
 
 # 컴파일 방법
- - 개발환경
-   - CentOS Linux release 7.9.2009
-   - go1.18.3
-   - go 환경변수
+- 개발환경
+  - CentOS Linux release 7.9.2009
+  - go1.18.3
+  - go 환경변수
 ```
 GOPATH="$HOME/proj"
 GOROOT="$HOME/go"
 ```
+
 - 초기화
 ```shell
- go mod init ntels.com/redis-qsg
- go mod tidy
+go mod init ntels.com/redis-qsg
+go mod tidy
 ```
 
 - 빌드
 ```shell
- go build
- ```
+go build
+```
 
 - 실행
 ```
